@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+}
+
+.navBar {
+    top: 0px;
+    height: 50px;
+    width: 100%;
+    background: #D4AF37;
+}
+
+.ball_play_canvas {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    min-width: 650px;
+    min-height: 550px;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.dragon_ball {
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    width: 10px;
+    height: 10px;
+    border: 2px red;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.foodCoins {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px #D4AF37;
+    border-radius: 50px;
+    background-color: #D4AF37;
+}
+
+.navBar .navItem {
+    padding: 12px 10px 0px 10px;
+    color: brown;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
